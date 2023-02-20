@@ -10,5 +10,6 @@ func main() {
 	fmt.Println("Hello Go World")
 	p := Person{Age: 4}
 	fmt.Println(p.Age)
-	return
+	a := p.Age * 5
+	fmt.Println(a)
 }
